@@ -2692,7 +2692,7 @@ mark {
 }
 
 .text-muted {
-    color: #0e4194
+    color: #0e4194 !important;
 }
 
 .text-primary {
@@ -5118,7 +5118,7 @@ tbody.collapse.in {
     clear: both;
     font-weight: 400;
     line-height: 1.42857143;
-    color: #0e4194;
+    color: #0e4194 !important;
     white-space: nowrap
 }
 
@@ -5840,7 +5840,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     position: relative;
     min-height: 40px;
     margin-bottom: 20px;
-    border: 1px solid transparent
+    background: transparent !important;
 }
 
 @media (min-width:768px) {
@@ -5937,6 +5937,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .navbar-fixed-bottom,
 .navbar-fixed-top {
+    background-color: #0e4194 !important;
     position: fixed;
     right: 0;
     left: 0;
@@ -5966,12 +5967,15 @@ textarea.input-group-sm>.input-group-btn>.btn {
     height: 40px;
     padding: 10px 15px;
     font-size: 18px;
-    line-height: 20px
+    line-height: 20px;
+    background-color: #0e4194 !important;
+    color: #fff !important;
 }
 
 .navbar-brand:focus,
 .navbar-brand:hover {
-    text-decoration: none
+    text-decoration: none;
+    color: #f07d00 !important;
 }
 
 .navbar-brand>img {
@@ -6059,7 +6063,12 @@ textarea.input-group-sm>.input-group-btn>.btn {
         margin: 0
     }
     .navbar-nav>li {
-        float: left
+        float: left;
+        color: #fff;
+    }
+    .navbar-nav>li:hover {
+        float: left;
+        color: #f07d00;
     }
     .navbar-nav>li>a {
         padding-top: 10px;
@@ -8353,7 +8362,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #000;
     background-color: transparent;
     border: 1px solid #fff;
     border-radius: 10px
@@ -8782,7 +8791,8 @@ a:hover {
 .dropdown-menu a:hover,
 .navbar a:focus,
 .navbar a:hover {
-    border-bottom: none
+    border-bottom: none;
+    color: #f07d00 !important;
 }
 
 h4.modal-title {
@@ -13722,7 +13732,8 @@ img.img-loading:after {
 
 .indicator-right.grey:after,
 .indicator.grey:before {
-    background: #f0f4f7
+    /*background: #f0f4f7*/
+    background: #161b1f;
 }
 
 .indicator-right.blue:after,
@@ -13902,7 +13913,8 @@ img.img-loading:after {
 
 .navbar a {
     font-size: 12px;
-    font-weight: 700
+    font-weight: 700;
+    color: #fff !important;
 }
 
 .navbar .dropdown-toggle {
@@ -14233,7 +14245,8 @@ img.img-loading:after {
     white-space: normal;
     text-decoration: none;
     font-weight: 400;
-    display: flow-root
+    display: flow-root;
+    color: #0e4194 !important;
 }
 
 .category-list[data-category=Notifications] .recent-item {
@@ -20308,7 +20321,7 @@ body[data-route*=Kanban] .modal .add-assignment:hover i {
 .flush-top,
 .level {
     display: flex;
-    justify-content: space-between
+    /*justify-content: space-between*/
 }
 
 .level {
@@ -20680,10 +20693,6 @@ p {
     color: #36414c!important
 }
 
-.text-muted {
-    color: #0e4194!important
-}
-
 .text-extra-muted {
     color: #d1d8dd!important
 }
@@ -20840,7 +20849,7 @@ a.badge-hover:hover .badge {
 }
 
 .border {
-    border: 1px solid #d1d8dd
+    border: 1px solid #0e4194
 }
 
 .rounded {
@@ -21025,13 +21034,13 @@ a.no-decoration:hover {
 
 .active-tag-filters .btn-group .btn-default {
     background-color: transparent;
-    border: 1px solid #d1d8dd;
+    border: 1px solid #0e4194;
     color: #0e4194;
     float: none
 }
 
 .frappe-list .filter-box {
-    border-bottom: 1px solid #d1d8dd;
+    border-bottom: 1px solid #0e4194;
     padding: 10px 15px
 }
 
