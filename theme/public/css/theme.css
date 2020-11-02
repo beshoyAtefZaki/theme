@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Reem+Kufi&display=swap');
 .leaflet-image-layer,
 .leaflet-layer,
 .leaflet-marker-icon,
@@ -2425,7 +2426,7 @@ html {
 }
 
 body {
-    font-family: Helvetica Neue, Helvetica, Arial, Open Sans, sans-serif;
+    font-family: Cairo !important;
     font-size: 14px;
     line-height: 1.42857143;
     color: #36414c;
