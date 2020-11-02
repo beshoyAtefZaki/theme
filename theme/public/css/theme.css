@@ -4612,10 +4612,16 @@ textarea.form-group-lg .form-control {
 }
 
 .btn.focus,
-.btn:focus,
+.btn:focus {
+    color: #fff !important;
+    text-decoration: none;
+    background-color: #0e4194 !important;
+}
+
 .btn:hover {
-    color: inherit;
-    text-decoration: none
+    color: black !important;
+    text-decoration: none;
+    background-color: #f07d00 !important;
 }
 
 .btn.active,
@@ -6067,7 +6073,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
         color: #fff;
     }
     .navbar-nav>li:hover {
-        float: left;
         color: #f07d00;
     }
     .navbar-nav>li>a {
@@ -14098,8 +14103,8 @@ img.img-loading:after {
 }
 
 .navbar-form .awesomplete {
-    margin-left: -15px;
-    width: 300px
+    margin-left: -0;
+    width: 315px
 }
 
 @media (max-width:1199px) {
@@ -20690,11 +20695,11 @@ p {
 }
 
 .text-color {
-    color: #36414c!important
+    color: #0e4194!important
 }
 
 .text-extra-muted {
-    color: #d1d8dd!important
+    color: #0e4194!important
 }
 
 .badge,
@@ -21357,4 +21362,127 @@ body[data-route*="social/profile"] .page-head {
 .graph-svg-tip.comparison li {
     display: inline-block;
     padding: 5px 10px
+}
+
+
+/*Icons */
+
+.icon {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    vertical-align: bottom;
+    background-size: contain !important;
+}
+
+.start-blue {
+    background: url(/assets/theme/images/start.png)
+}
+
+.accounting-blue {
+    background: url(/assets/theme/images/accounting.png)
+}
+
+.buying-blue {
+    background: url(/assets/theme/images/buying.png)
+}
+
+.selling-blue {
+    background: url(/assets/theme/images/selling.png)
+}
+
+.stock-blue {
+    background: url(/assets/theme/images/stock.png)
+}
+
+.assets-blue {
+    background: url(/assets/theme/images/assets.png)
+}
+
+.projects-blue {
+    background: url(/assets/theme/images/projects.png)
+}
+
+.crm-blue {
+    background: url(/assets/theme/images/crm.png)
+}
+
+.support-blue {
+    background: url(/assets/theme/images/support.png)
+}
+
+.hr-blue {
+    background: url(/assets/theme/images/hr.png)
+}
+
+.quality-blue {
+    background: url(/assets/theme/images/quality.png)
+}
+
+.website-blue {
+    background: url(/assets/theme/images/website.png)
+}
+
+.social-blue {
+    background: url(/assets/theme/images/social.png)
+}
+
+.dashboard-blue {
+    background: url(/assets/theme/images/dashboard.png)
+}
+
+.marketplace-blue {
+    background: url(/assets/theme/images/marketplace.png)
+}
+
+.tools-blue {
+    background: url(/assets/theme/images/tools.png)
+}
+
+.settings-blue {
+    background: url(/assets/theme/images/settings.png)
+}
+
+.users-blue {
+    background: url(/assets/theme/images/users.png)
+}
+
+.customize-blue {
+    background: url(/assets/theme/images/customize.png)
+}
+
+.integrate-blue {
+    background: url(/assets/theme/images/integrate.png)
+}
+
+.developer-blue {
+    background: url(/assets/theme/images/developer.png)
+}
+
+.learn-blue {
+    background: url(/assets/theme/images/learn.png)
+}
+
+.manufacture-blue {
+    background: url(/assets/theme/images/manufacture.png)
+}
+
+.retail-blue {
+    background: url(/assets/theme/images/retail.png)
+}
+
+.education-blue {
+    background: url(/assets/theme/images/education.png)
+}
+
+.healthcare-blue {
+    background: url(/assets/theme/images/healthcare.png)
+}
+
+.agriculture-blue {
+    background: url(/assets/theme/images/agriculture.png)
+}
+
+.non-profit-blue {
+    background: url(/assets/theme/images/charity.png)
 }
