@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Cairo';
-    src: url('/assets/frappe/css/fonts/Cairo/Cairo-Regular.ttf');
+    src: url('/assets/theme/css/fonts/Cairo/Cairo-Regular.ttf');
 }
 
 .leaflet-image-layer,
