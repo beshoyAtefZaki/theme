@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Reem+Kufi&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Reem+Kufi&display=swap');*/
+
+@font-face {
+    font-family: 'Cairo';
+    src: url('/assets/frappe/css/fonts/Cairo/Cairo-Regular.ttf');
+}
+
 .leaflet-image-layer,
 .leaflet-layer,
 .leaflet-marker-icon,
