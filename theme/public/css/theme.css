@@ -2432,7 +2432,7 @@ html {
 }
 
 body {
-    font-family: Cairo !important;
+    font-family: FontAwesome !important;
     font-size: 14px;
     line-height: 1.42857143;
     color: #36414c;
@@ -13000,6 +13000,10 @@ li.user-progress .progress-bar {
 
 .file-upload .file-public-column input[type=checkbox] {
     margin-right: 0
+}
+
+.frappe-rtl {
+    font-family: Cairo !important;
 }
 
 .frappe-rtl input,
